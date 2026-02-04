@@ -21,7 +21,7 @@ export default function LoginForm(){
         placeholder="Password"
         className="w-full px-4 py-2 border border-blue-300 - focus:outline-none focus:ring-blue-500"
         />
-    <div className="flex gap-4 pt-4"> 
+    <div className="flex gap-4 pt-4">
         <LoginButton/>
        <LogoutButton/>
     </div>
