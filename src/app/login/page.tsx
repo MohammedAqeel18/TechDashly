@@ -6,11 +6,13 @@ export default function LoginPage(){
 
     return(
         <div className="min-h-screen flex items-center justify-center bg-slate-100 ">
-         <div className=" w-full max-w-md bg-white rounded-2xl shadow-xl p-8">   
-         <h1 className="text-3xl font-bold text-center text-slate-800 mb-2"> Welcome Back</h1>
+         <div className=" w-full max-w-md  shadow-xl p-8 bg-black/100   text-white">   
+         <h1 className="text-3xl font-bold text-center text-red-800 mb-2"> Welcome Back</h1>
 
-         <p className="text-center text-slate-500 mb-6"> Please Sign in Continue</p>
          <LoginForm/>
+<span>
+
+</span>
         </div>
         </div>
     )
